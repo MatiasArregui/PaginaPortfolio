@@ -1,0 +1,28 @@
+body{
+    background-color: #FAEBD7;
+    /* Color de background: #FAEBD7 segunda opcion #F5F5DC */
+
+}
+.encabezado{
+    background-color: #DEB887;
+    /* background de header: #FFE4C4 segunda opcion #DEB887 */
+    height: 90px;
+}
+.encabezado a{
+    text-decoration: none;
+    color: black;
+    /* margin-left: opx;
+    padding: 10px; */
+}
+.mainEstilo{
+    background-color: #CD853F;
+    padding:40px;
+}
+.mainEstilo p{
+    color: white;
+    text-align: justify;
+}
+.mainEstilo h6{
+    color: white;
+    text-align: center;
+}

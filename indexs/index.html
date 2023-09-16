@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Arregui</title>
+    <!-- Anexamos una imagen de icono a la pagina -->
+    <link rel="icon" href="../imagenes/linkIcono.png">
+    <!-- Anexamos estilos de bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Anexamos estilos de Css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <!-- 
+    X-Small 	        None 	    <576px
+    Small 	            sm 	        ≥576px
+    Medium          	md 	        ≥768px
+    Large 	            lg 	        ≥992px
+    Extra large 	    xl 	        ≥1200px
+    Extra extra large 	xxl 	    ≥1400px 
+    -->
+    <header>
+        <div class="container mt-3">
+            <div class="row shadow-lg d-flex align-items-center encabezado rounded">
+                <div class="col-3 col-sm-6 col-lg-7">
+                    <h5 class="text-align-center">Matias Arregui</h1>
+                </div>
+                <div class="col-3 col-sm-2 col-lg-2">
+                    <a href="">Sobre mí</a>
+                </div>
+                <div class="col-3 col-sm-2 col-lg-2">
+                    <a href="">Contacto</a>
+                </div>
+                <div class="col-3 col-sm-2 col-lg-1">
+                    <a href="">GitHub</a>
+                </div>
+                <!-- <div class="col-8 col-sm-6 d-flex justify-content-end">
+                    <nav>
+                        <a href="#sobreMi">Sobre mí</a>
+                        <a href="#contacto">Contacto</a>
+                        <a href="https://github.com/MatiasArregui">GitHub</a>
+                    </nav>
+                </div> -->
+            </div>
+        </div>
+    </header>
+    <br>
+    <main>
+        <div class="container">
+            <div class="row shadow-sm mainEstilo rounded-top">
+                <!-- Apartado Sobre mi donde pondre mi foto y una breve descripcion -->
+                <div class="col-12 col-md-6">
+                    <img src="../imagenes/imgPerfil.jpg" class="img-thumbnail mt-3 rounded" alt="Foto de perfil">
+                </div>
+                <div class="col-12 col-md-6 mt-3">
+                    <h6>Sobre mí</h6>
+                    <P>
+                        Me encuentro estudiando la "Tecnicatura Superior en Desarrollo de Software", con prospecto
+                        a convertirme en un gran programador, con el objetivo de ser profesor a futuro y poder impartir 
+                        mis conocimientos a los demas. <br>
+                        Actualmente estoy realizando un curso de desarrollo web, en el cual utilizamos el framwork Bootstrap 5. <br>
+
+                    </P>
+                </div>
+            </div>
+            <br>
+            <!-- Apartado para mostrar un carrusel, donde mostrare las tecnologias que domino -->
+            <div class="row">
+                <div class="col-12 shadow-sm mainEstilo rounded-bottom">
+                    <div id="carousel_1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../imagenes/html logo.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../imagenes/cssIcono.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../imagenes/pythonIcono.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" 
+                            data-bs-target="#carousel_1" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" 
+                            data-bs-target="#carousel_1" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>
+
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
