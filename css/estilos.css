@@ -1,28 +1,33 @@
 body{
-    background-color: #FAEBD7;
-    /* Color de background: #FAEBD7 segunda opcion #F5F5DC */
-
+    background-color: #5b1f00;
+    /* color de fondo tenido en cuenta 
+    #5b1f00
+     */
 }
-.encabezado{
-    background-color: #DEB887;
-    /* background de header: #FFE4C4 segunda opcion #DEB887 */
-    height: 90px;
+.header_estilo{
+    background-color: #b96e48;
+    /* height: 100px; */
 }
-.encabezado a{
-    text-decoration: none;
-    color: black;
-    /* margin-left: opx;
-    padding: 10px; */
-}
-.mainEstilo{
-    background-color: #CD853F;
-    padding:40px;
-}
-.mainEstilo p{
-    color: white;
-    text-align: justify;
-}
-.mainEstilo h6{
-    color: white;
+.nav_estilo{
     text-align: center;
+    display: flex;
+    align-items: center;
+}
+.div_nav{
+    background-color: #8d4925;
+    margin: 2px;
+    height: 60px;
+}
+.div_nav a{
+    color: black;
+}
+header svg{
+    color: black;
+}
+
+/* Color del main:
+    #e6966e
+*/
+.article_estilo{
+    background-color: #e6966e;
 }
