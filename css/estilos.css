@@ -31,3 +31,15 @@ header svg{
 .article_estilo{
     background-color: #e6966e;
 }
+/* Establecer el tamaño de la imagen, para establecer dos imagenes utilizaremos el hidden para utilizar dos imagenes */
+.img_sobre_mi{
+    width: 210px;
+    height: 210px;
+}
+.img_sobre_mi_2{
+    width: 250px;
+    height: 250px;
+}
+.sobremi_estilo{
+    background-color:  #e6966e;
+}
